@@ -2,7 +2,7 @@ name: GLaDOS-CheckIn
 on:
   push:
     branches: [ main ]
-    paths-ignore: 
+    paths-ignore:
       - 'README.md'
       - 'imgs/**'
   schedule:
@@ -24,4 +24,4 @@ jobs:
         run: node checkin.js
         env:
           SCKEY: ${{ secrets.SCKEY }}
-          COOKIE: ${{ secrets.COOKIE }}
+          COOKIE: ${{ secrets.COOKIES }}
