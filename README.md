@@ -1,4 +1,4 @@
-# GLaDOS 每日签到💮
+# GLaDOS 每日签到(多账号)💮
 
 * #### 基于Github Action
 * #### 每天北京时间9点30分（UTC时间1点30分）进行自动签到
@@ -45,7 +45,9 @@
 ### 三、设置密钥🔑
 * #### SCKEY serve酱的sckey（不需要可以不创建或不设置）
 
-* #### COOKIE 账号的cookie（第一步准备工作中所找到的cookie）
+* #### 设置账号的cookie（第一步准备工作中所找到的cookie）
+1. 前往项目的`Settings`里的`Secret`里面设置`COOKIES`
+2. 多账号的分隔符为 `--分隔符--`
 
 ![secrets](imgs/secrets.png)
 
